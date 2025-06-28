@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Contact Me - Mallikarjuna Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+</head>
+<body class="bg-light text-dark p-5">
+<div class="container">
+    <h2>📬 Contact Me</h2>
+    <hr>
+
+    <!-- Success message -->
+    <div th:if="${success}" class="alert alert-success" th:text="${success}"></div>
+
+    <form th:action="@{/contact}" th:object="${contactForm}" method="post">
+        <div class="form-group">
+            <label>Your Name</label>
+            <input type="text" th:field="*{name}" class="form-control" required>
+        </div>
+
+        <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" th:field="*{email}" class="form-control" required>
+        </div>
+
+        <div class="form-group">
+            <label>Your Message</label>
+            <textarea th:field="*{message}" class="form-control" rows="5" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+
+    <a href="/" class="btn btn-secondary mt-4">← Back to Home</a>
+</div>
+</body>
+</html>

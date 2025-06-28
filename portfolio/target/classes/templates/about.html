@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>About Me - Mallikarjuna Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+</head>
+<body class="bg-white text-dark p-5">
+
+<div class="container">
+    <h2>👤 About Me</h2>
+    <hr>
+
+    <p><strong>Full Name:</strong> <span th:text="${fullName}">Name</span></p>
+    <p><strong>Village:</strong> <span th:text="${village}">Village Name</span></p>
+    <p><strong>Father's Name:</strong> <span th:text="${fatherName}">Father Name</span></p>
+    <p><strong>Hobbies:</strong> <span th:text="${hobbies}">Hobbies</span></p>
+    <p><strong>Bio:</strong> <span th:text="${bio}">Bio Info</span></p>
+
+    <a href="/" class="btn btn-secondary mt-3">← Back to Home</a>
+</div>
+
+</body>
+</html>
