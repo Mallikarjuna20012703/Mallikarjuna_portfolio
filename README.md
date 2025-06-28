@@ -5,7 +5,7 @@ This is a personal full-stack portfolio website built using Java Spring Boot, My
 ---
 # About Me
 
-👨‍💻 I'm Yampalaku Mallikarjuna, a passionate Java Full Stack Developer and 2023 B.Tech graduate in Electronics and Communication Engineering from Sri Krishnadevaraya University College of Engineering and Technology.
+ I'm Yampalaku Mallikarjuna, a passionate Java Full Stack Developer and 2023 B.Tech graduate in Electronics and Communication Engineering from Sri Krishnadevaraya University College of Engineering and Technology.
 
  I’m proficient in:
 - Java, Spring Boot, Microservices
@@ -14,7 +14,7 @@ This is a personal full-stack portfolio website built using Java Spring Boot, My
 
 ---
 
-# 🏗 Project Highlights
+#  Project Highlights
 
 This portfolio includes the following sections:
 -  Personal Introduction
